@@ -1,11 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html {
-  scroll-behavior: smooth;
-}
 
-* {
-  transition-property: background-color, border-color, color, fill, stroke;
-  transition-duration: 300ms;
+/* Optional global gradient background */
+body {
+  @apply bg-gradient-to-r from-purple-500 via-pink-500 to-indigo-500;
 }

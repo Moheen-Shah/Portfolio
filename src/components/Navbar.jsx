@@ -37,15 +37,16 @@ export default function Navbar() {
   };
 
   return (
- <nav
+    <nav
       className={`fixed top-0 left-0 w-full h-16 z-50 transition-all duration-300
         ${scrolled
           ? "backdrop-blur bg-white/70 dark:bg-gray-900/70 shadow"
-          : "bg-transparent"}
-      `}
+          : "bg-transparent"
+        }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
+          Moin Shah
         </h1>
         <div className="flex items-center space-x-4">
           <Link
@@ -63,6 +64,22 @@ export default function Navbar() {
             className="cursor-pointer hover:text-blue-500 dark:hover:text-blue-400 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
           >
             Projects
+          </Link>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-blue-500 dark:hover:text-blue-400 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+          >
+            Skills
+          </Link>
+          <Link
+            to="education"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-blue-500 dark:hover:text-blue-400 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+          >
+            Education
           </Link>
           <Link
             to="services"
@@ -89,7 +106,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-    
   );
-  
 }

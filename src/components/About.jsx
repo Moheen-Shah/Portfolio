@@ -29,6 +29,7 @@ export default function About() {
           I’m a Frontend Web Developer specializing in React.js and modern UI
           development. I build fast, responsive, and visually engaging web
           applications with clean code and great user experience.
+          I enjoy building products that feel smooth, fast, and intuitive.
         </motion.p>
 
         {/* Skills */}
