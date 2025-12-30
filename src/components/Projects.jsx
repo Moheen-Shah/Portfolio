@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
