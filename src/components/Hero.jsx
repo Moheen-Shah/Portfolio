@@ -53,7 +53,7 @@ export default function Hero() {
         >
           <motion.img
             src={profileImg}
-  alt="Moin Shah"
+  alt=""
   className="w-00 md:w-130 rounded-2xl bg-transparent"
             animate={{ y: [0, -10, 0] }}
             transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
